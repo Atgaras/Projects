@@ -1,0 +1,7 @@
+E:\VisualStudio\Projects\Struct Saugykla Zmogus\Struct Saugykla Zmogus\obj\Debug\Struct Saugykla Zmogus.csprojAssemblyReference.cache
+E:\VisualStudio\Projects\Struct Saugykla Zmogus\Struct Saugykla Zmogus\obj\Debug\Struct Saugykla Zmogus.csproj.CoreCompileInputs.cache
+E:\VisualStudio\Projects\Struct Saugykla Zmogus\Struct Saugykla Zmogus\bin\Debug\Struct Saugykla Zmogus.exe.config
+E:\VisualStudio\Projects\Struct Saugykla Zmogus\Struct Saugykla Zmogus\bin\Debug\Struct Saugykla Zmogus.exe
+E:\VisualStudio\Projects\Struct Saugykla Zmogus\Struct Saugykla Zmogus\bin\Debug\Struct Saugykla Zmogus.pdb
+E:\VisualStudio\Projects\Struct Saugykla Zmogus\Struct Saugykla Zmogus\obj\Debug\Struct Saugykla Zmogus.exe
+E:\VisualStudio\Projects\Struct Saugykla Zmogus\Struct Saugykla Zmogus\obj\Debug\Struct Saugykla Zmogus.pdb
