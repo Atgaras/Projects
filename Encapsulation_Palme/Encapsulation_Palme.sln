@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation_Palme", "Encapsulation_Palme\Encapsulation_Palme.csproj", "{16400DB1-A625-42DD-B252-5E2DD3426B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palme", "Palme\Palme.csproj", "{8CDFD319-497D-418E-865E-EC5C545B9A85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16400DB1-A625-42DD-B252-5E2DD3426B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16400DB1-A625-42DD-B252-5E2DD3426B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16400DB1-A625-42DD-B252-5E2DD3426B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16400DB1-A625-42DD-B252-5E2DD3426B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDFD319-497D-418E-865E-EC5C545B9A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDFD319-497D-418E-865E-EC5C545B9A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDFD319-497D-418E-865E-EC5C545B9A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDFD319-497D-418E-865E-EC5C545B9A85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A153634A-5C04-4D55-B99D-AD13C80EC6EB}
+	EndGlobalSection
+EndGlobal

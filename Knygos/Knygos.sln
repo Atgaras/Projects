@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knygos", "Knygos\Knygos.csproj", "{00B05413-2C37-4524-A0C9-0C8DEF2D5150}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book", "Book\Book.csproj", "{C1D879BF-ECE8-471A-AF32-F6489F5007BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00B05413-2C37-4524-A0C9-0C8DEF2D5150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B05413-2C37-4524-A0C9-0C8DEF2D5150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B05413-2C37-4524-A0C9-0C8DEF2D5150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B05413-2C37-4524-A0C9-0C8DEF2D5150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D879BF-ECE8-471A-AF32-F6489F5007BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D879BF-ECE8-471A-AF32-F6489F5007BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D879BF-ECE8-471A-AF32-F6489F5007BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D879BF-ECE8-471A-AF32-F6489F5007BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB972F9D-EB01-463C-B394-1630E0D1C3F4}
+	EndGlobalSection
+EndGlobal
