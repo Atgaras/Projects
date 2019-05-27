@@ -5,8 +5,8 @@ namespace NewPirkinys
     public struct Pirkinys
     {
         private string _prekesPavadinimas;
-        private string _kiekis;
-        private string _kainaVieneto;
+        private decimal _kiekis;
+        private decimal _kainaVieneto;
 
         public string PrekesPavadinimas
         {
@@ -19,7 +19,7 @@ namespace NewPirkinys
                 _prekesPavadinimas = value;
             }
         }
-        public string Kiekis
+        public decimal Kiekis
         {
             get
             {
@@ -30,7 +30,7 @@ namespace NewPirkinys
                 _kiekis = value;
             }
         }
-        public string KainaVieneto
+        public decimal KainaVieneto
         {
             get
             {
@@ -41,19 +41,19 @@ namespace NewPirkinys
                 _kainaVieneto = value;
             }
         }
-        public string KainaViso
+        public decimal KainaViso
         {
             get
             {
-                return string.Format(_kainaVieneto);
+                return _kainaVieneto*_kiekis;
                     
                     //("Kaina viso: {0} €", _kainaVieneto*_kiekis);
             }
 
         }
-        public Pirkinys (string prekesPavainimas, string kiekis, string kainaVieneto)
+        public Pirkinys (string prekesPavadinimas, decimal kiekis, decimal kainaVieneto)
         {
-            _prekesPavadinimas = prekesPavainimas;
+            _prekesPavadinimas = prekesPavadinimas;
             _kiekis = kiekis;
             _kainaVieneto = kainaVieneto;
         }

@@ -11,13 +11,55 @@ namespace Encapsulation_Pirkinys
     {
         static void Main(string[] args)
         {
-            Pirkinys pirk1;
-            pirk1 = new Pirkinys("Dviratis", "1", "500");
-            Console.WriteLine("Gavėjas: {0}", pirk1.PrekesPavadinimas);
-            Console.WriteLine("Siuntėjas: {0}", pirk1.Kiekis);
-            Console.WriteLine("Mokėti viso: {0}", pirk1.KainaVieneto);
-            Console.WriteLine("Kaina viso: {0}", pirk1.KainaViso);
+            List<Pirkinys> prekiuSarasas = new List<Pirkinys>();
+            Pirkinys pirk1 = new Pirkinys("Dviratis", 2, 500);
+            prekiuSarasas.Add(pirk1);
+            Pirkinys pirk2 = new Pirkinys("Triratis", 5, 150);
+            prekiuSarasas.Add(pirk2);
+            Pirkinys pirk3 = new Pirkinys("Vienaratis", 3, 147);
+            prekiuSarasas.Add(pirk3);
 
+            Console.WriteLine("Ką norite atlikti: [1] Pridėti prekę, [2] Parodyti visą sąrašą");
+            int veiksmas = int.Parse(Console.ReadLine());
+            if (veiksmas == 1)
+            {
+                string tempPavadinimas;
+                decimal tempKiekis = 0;
+                decimal tempVienetoKaina = 0;
+                Console.WriteLine("Įveskite prekės pavadinimą:");
+                tempPavadinimas = Console.ReadLine();
+                Console.WriteLine("Įveskite prekių kiekį:");
+                tempKiekis = decimal.Parse(Console.ReadLine());
+                Console.WriteLine("Įveskite prekės vieneto kainą:");
+                tempVienetoKaina = decimal.Parse(Console.ReadLine());
+                Pirkinys naujaPreke = new Pirkinys(tempPavadinimas, tempKiekis, tempVienetoKaina);
+                prekiuSarasas.Add(naujaPreke);
+            }
+            else if (veiksmas == 2)
+            {
+                decimal suma = 0;
+                for (int i = 0; i < prekiuSarasas.Count; i++)
+                {
+                    Console.WriteLine("{0}, {1}, {2}, {3}", prekiuSarasas[i].PrekesPavadinimas, prekiuSarasas[i].Kiekis, prekiuSarasas[i].KainaVieneto, prekiuSarasas[i].KainaViso);
+                    suma = suma + prekiuSarasas[i].KainaViso;
+                }
+                Console.WriteLine("Bandra visų prekių suma: {0}€", suma);
+            }
+            else
+            {
+                Console.WriteLine("Neatpažintas veiksmas");
+            }
+            Console.WriteLine("[1] Tęsti darbą, [2] Išeiti");
+            int vartotojasNepasirinkoIseiti = int.Parse(Console.ReadLine());
+            while (vartotojasNepasirinkoIseiti == 1)
+            {
+
+                if (vartotojasNepasirinkoIseiti==2)
+                {
+                    break;
+                }
+            
+            }
             Console.ReadLine();
         }
     }
