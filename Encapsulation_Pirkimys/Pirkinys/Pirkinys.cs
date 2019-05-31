@@ -46,8 +46,6 @@ namespace NewPirkinys
             get
             {
                 return _kainaVieneto*_kiekis;
-                    
-                    //("Kaina viso: {0} €", _kainaVieneto*_kiekis);
             }
 
         }

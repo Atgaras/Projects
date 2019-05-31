@@ -22,7 +22,7 @@ namespace Encapsulation_Pirkinys
 
             while (vartotojasPasirinkoIseiti == false)
             {
-                Console.WriteLine("Ką norite atlikti: [1] Pridėti prekę, [2] Parodyti visą sąrašą");
+                Console.WriteLine("Ką norite atlikti: [1] Pridėti prekę, [2] Pašalinti prekę, [3] Koreguoti kiekį, [4] Parodyti visą sąrašą");
                 int veiksmas = int.Parse(Console.ReadLine());
                 if (veiksmas == 1)
                 {
@@ -39,6 +39,22 @@ namespace Encapsulation_Pirkinys
                     prekiuSarasas.Add(naujaPreke);
                 }
                 else if (veiksmas == 2)
+                {
+                    Console.WriteLine("Pasirinkite kurią prekę ištrinti:");
+                    prekiuSarasas.RemoveAt(int.Parse(Console.ReadLine()));
+                }
+                else if (veiksmas == 3)
+                {
+                    /*decimal suma = 0;
+                    for (int i = 0; i < prekiuSarasas.Count; i++)
+                    {
+                        Console.WriteLine("{0}, {1}, {2}, {3}", prekiuSarasas[i].PrekesPavadinimas, prekiuSarasas[i].Kiekis, prekiuSarasas[i].KainaVieneto, prekiuSarasas[i].KainaViso);
+                        suma = suma + prekiuSarasas[i].KainaViso;
+                    }
+                    Console.WriteLine("Bandra visų prekių suma: {0}€", suma);*/
+                    
+                }
+                else if (veiksmas == 4)
                 {
                     decimal suma = 0;
                     for (int i = 0; i < prekiuSarasas.Count; i++)
