@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftRegistration", "AircraftRegistration\AircraftRegistration.csproj", "{7F2DF8F7-5C68-4822-BE67-C891693BA6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AircraftRegistrationBL", "AircraftRegistrationBL\AircraftRegistrationBL.csproj", "{F74B1EB9-8D47-4A8B-B701-6608E04DFB3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F2DF8F7-5C68-4822-BE67-C891693BA6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2DF8F7-5C68-4822-BE67-C891693BA6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2DF8F7-5C68-4822-BE67-C891693BA6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2DF8F7-5C68-4822-BE67-C891693BA6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74B1EB9-8D47-4A8B-B701-6608E04DFB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74B1EB9-8D47-4A8B-B701-6608E04DFB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74B1EB9-8D47-4A8B-B701-6608E04DFB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74B1EB9-8D47-4A8B-B701-6608E04DFB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {516821DA-DE59-41E1-82E5-FC4F0EB0CFA9}
+	EndGlobalSection
+EndGlobal
