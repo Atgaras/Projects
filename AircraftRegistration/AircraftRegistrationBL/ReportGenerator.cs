@@ -43,7 +43,8 @@ namespace AircraftRegistrationBL
                     eilute.OwnerCompanyName = lektuvoKompanija.Name;
                     eilute.CompanyCountryCode = lektuvoSalis.Code;
                     eilute.CompanyCountryName = lektuvoSalis.Name;
-                    //eilute.BelongsToEU = ;
+                    eilute.BelongsToEU = lektuvoSalis.BelongsToEU;
+                    ataskaita.Add(eilute);
                 }
             }
                
