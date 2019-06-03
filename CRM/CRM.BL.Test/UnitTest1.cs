@@ -84,7 +84,24 @@ namespace CRM.BL.Test
 
             //--Assert
             Assert.AreEqual(expected, actual);
-
+        }
+        [TestMethod]
+        public void RetrieveValid()
+        {
+            //--Arrange
+            var customerRepository = new CustomerRepository();
+            var expected = new Customer(1)
+            {
+                EmailAdress = "fbaggins@hobbiton.me",
+                FirstName = "Frodo",
+                LastName = "Baggins"
+            };
+            //--Act
+            bool actual = customerRepository.Retrieve(1);
+            //--Assert
+            Assert.AreEqual(expected, actual);
         }
     }
 }
+
+
