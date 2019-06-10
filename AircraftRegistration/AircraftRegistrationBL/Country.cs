@@ -6,7 +6,6 @@ namespace AircraftRegistrationBL
 {
     public class Country
     {
-        //countryCodes.Add(new Country(1,'LT','Lithuania','Europe','T'));
         public Country()
         {
 

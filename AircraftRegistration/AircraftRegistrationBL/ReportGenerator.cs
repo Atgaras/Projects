@@ -48,7 +48,7 @@ namespace AircraftRegistrationBL
                 }
             }
                
-            return null;
+            return ataskaita;
         }
     }
 }
