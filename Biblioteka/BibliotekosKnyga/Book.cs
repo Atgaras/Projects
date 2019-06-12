@@ -11,9 +11,18 @@ namespace BibliotekosKnyga
         public DateTime DateWhenPicked { get; set; }
         public bool IsDelay()
         {
-            
+            int delayDays = DateTime.Now.Year - DateWhenPicked.Year;
+            if (delayDays > DaysTillReturn)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-        public Book(int id, string bookName, int daysTillReturn, string userName, DateTime dateWhenPicked, bool )
+
+        public Book(int id, string bookName, int daysTillReturn, string userName, DateTime dateWhenPicked)
         {
             ID = id;
             BookName = bookName;
