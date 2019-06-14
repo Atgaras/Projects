@@ -11,8 +11,7 @@ namespace BibliotekosKnyga
         public DateTime DateWhenPicked { get; set; }
         public bool IsDelay()
         {
-            int delayDays = DateTime.Now.Year - DateWhenPicked.Year;
-            if (delayDays > DaysTillReturn)
+            if (DateTime.Now.Year - DateWhenPicked.Year > DaysTillReturn)
             {
                 return true;
             }
@@ -21,7 +20,10 @@ namespace BibliotekosKnyga
                 return false;
             }
         }
-
+        public decimal Cost()
+        {
+            return ((DateTime.Now.Year - DateWhenPicked.Year) * 1);
+        }
         public Book(int id, string bookName, int daysTillReturn, string userName, DateTime dateWhenPicked)
         {
             ID = id;

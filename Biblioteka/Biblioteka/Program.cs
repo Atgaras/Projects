@@ -11,11 +11,11 @@ namespace Biblioteka
     {
         static void Main(string[] args)
         {
-            Book book1 = new Book(1, "1985", 5, "Edgaras", new DateTime(2015,06,12));
+            Book book1 = new Book(1, "1985", 5, "Edgaras", new DateTime(2005,06,12));
             if (book1.IsDelay() == true)
             {
                 Console.WriteLine("Knyga {0}, skaitytojas {1},", book1.BookName, book1.UserName);
-                Console.WriteLine("Paėmimo data {0}", book1.DateWhenPicked.ToShortDateString());
+                Console.WriteLine("Paėmimo data {0}, skola {1}", book1.DateWhenPicked.ToShortDateString(), book1.Cost());
             }
             else
             {
