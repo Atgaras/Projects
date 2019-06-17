@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mokykla", "Mokykla\Mokykla.csproj", "{4D519476-4CEE-4BAF-ADB5-39A871E814A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokinysBL", "MokinysBL\MokinysBL.csproj", "{40EA4684-A80E-46D2-8F6B-94CB320947F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokinysTest", "MokinysTest\MokinysTest.csproj", "{43299BE1-80D0-4E2C-A312-797367128D96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D519476-4CEE-4BAF-ADB5-39A871E814A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D519476-4CEE-4BAF-ADB5-39A871E814A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D519476-4CEE-4BAF-ADB5-39A871E814A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D519476-4CEE-4BAF-ADB5-39A871E814A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EA4684-A80E-46D2-8F6B-94CB320947F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EA4684-A80E-46D2-8F6B-94CB320947F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EA4684-A80E-46D2-8F6B-94CB320947F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EA4684-A80E-46D2-8F6B-94CB320947F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43299BE1-80D0-4E2C-A312-797367128D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43299BE1-80D0-4E2C-A312-797367128D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43299BE1-80D0-4E2C-A312-797367128D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43299BE1-80D0-4E2C-A312-797367128D96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0374E54-D03D-44E4-A02E-A07EBB858F4C}
+	EndGlobalSection
+EndGlobal
