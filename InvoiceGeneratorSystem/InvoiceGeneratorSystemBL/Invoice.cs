@@ -5,6 +5,10 @@ namespace InvoiceGeneratorSystemBL
 {
     public class Invoice
     {
+        public Invoice()
+        {
+            InvoiceItems = new List<InvoiceItem>();
+        }
         public string Number { get; set; }
         public DateTime Date { get; set; }
         public List<InvoiceItem> InvoiceItems { get; set; }

@@ -15,9 +15,15 @@ namespace InvoiceGeneratorSystem
             generator.GenerateInvoices();
             foreach (var invoice in generator.Invoices)
             {
-                Console.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}", invoice.Number, invoice.Date, invoice.InvoiceItems, invoice.ProviderCompanyId, invoice.RecipientCompanyId, invoice.TotalPrice);
-                Console.ReadLine();
+                Console.WriteLine("{0}, {1}, {2}, {3}, {4}", invoice.Number, invoice.Date, invoice.ProviderCompanyId, invoice.RecipientCompanyId, invoice.TotalPrice);
+                Console.WriteLine("Details of invoice:");
+                foreach (var item in invoice.InvoiceItems)
+                {
+                    Console.WriteLine("{0}, {1}, {2}", item.ItemName, item.ItemPrice, item.PriceCurrency);
+                }
+                
             }
+            Console.ReadLine();
         }
     }
 }

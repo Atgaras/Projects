@@ -13,6 +13,7 @@ namespace InvoiceGeneratorSystemBL
         public InvoiceGenerator(InvoiceSourceRepository invoiceSourceRepository)
         {
             _invoiceSourceRepository = invoiceSourceRepository;
+            Invoices = new List<Invoice>();
         }
 
         public void GenerateInvoices()
@@ -27,9 +28,10 @@ namespace InvoiceGeneratorSystemBL
                 invoice.RecipientCompanyId = invoiceSourceItems[0].RecipientCompanyId;
                 invoice.ProviderCompanyId = invoiceSourceItems[0].ProviderCompanyId;
 
-                InvoiceItem invoiceItem = new InvoiceItem();
+                
                 foreach (var sourceItem in invoiceSourceItems)
                 {
+                    InvoiceItem invoiceItem = new InvoiceItem();
                     invoiceItem.ItemName = sourceItem.ItemName;
                     invoiceItem.ItemPrice = sourceItem.InvoicePrice;
                     invoiceItem.PriceCurrency = sourceItem.InvoiceCurrency;
