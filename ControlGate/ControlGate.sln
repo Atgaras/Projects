@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlGate", "ControlGate\ControlGate.csproj", "{053193B0-4769-47E7-BC89-A76A46A9347C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlGateBL", "ControlGateBL\ControlGateBL.csproj", "{53DCD917-3626-4E1F-A4AC-BE1F3200E988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{053193B0-4769-47E7-BC89-A76A46A9347C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053193B0-4769-47E7-BC89-A76A46A9347C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053193B0-4769-47E7-BC89-A76A46A9347C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053193B0-4769-47E7-BC89-A76A46A9347C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DCD917-3626-4E1F-A4AC-BE1F3200E988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DCD917-3626-4E1F-A4AC-BE1F3200E988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DCD917-3626-4E1F-A4AC-BE1F3200E988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DCD917-3626-4E1F-A4AC-BE1F3200E988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BECD4127-ABAB-4B39-A765-1D1CB649380A}
+	EndGlobalSection
+EndGlobal
