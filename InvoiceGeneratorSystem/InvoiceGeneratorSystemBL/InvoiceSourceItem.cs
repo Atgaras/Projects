@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InvoiceGeneratorSystemBL
 {
-    class InvoiceSourceItem
+    public class InvoiceSourceItem
     {
         public string InvoiceNumber { get; set; }
         public DateTime Date { get; set; }
