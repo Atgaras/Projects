@@ -18,7 +18,7 @@ namespace InvoiceGeneratorSystem
             while(!iseiti)
             {
                 Console.Clear();
-                Console.WriteLine("Koki veiksma norite atlikti: [1] - Generuoti saskaitas, [2] - Rodyti ataskaita, [3] - Iseiti");
+                Console.WriteLine("Kokį veiksmą norite atlikti: [1] - Generuoti sąskaitas, [2] - Rodyti ataskaitą, [3] - Išeiti");
                 int userChoice = int.Parse(Console.ReadLine());
                 if (userChoice == 1)
                 {
@@ -44,11 +44,11 @@ namespace InvoiceGeneratorSystem
                         }
                         Console.WriteLine(temp);
 
-                        Console.WriteLine("Ar norite issaugoti i byla? [1] - Taip, [2] - Ne");
+                        Console.WriteLine("Ar norite išsaugoti į bylą? [1] - Taip, [2] - Ne");
                         int arIssaugoti = int.Parse(Console.ReadLine());
                         if (arIssaugoti == 1)
                         {
-                            Console.WriteLine("Iveskite failo varda:");
+                            Console.WriteLine("Įveskite failo vardą:");
                             string failoVardas = Console.ReadLine();
                             failoVardas = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), failoVardas);
                             string fileExtension = Path.GetExtension(failoVardas);
@@ -59,7 +59,7 @@ namespace InvoiceGeneratorSystem
                             if (!string.IsNullOrEmpty(failoVardas))
                             {
                                 File.WriteAllText(Path.Combine(failoVardas, failoVardas), temp);
-                                Console.WriteLine("Issaugota, spauskite ENTER");
+                                Console.WriteLine("Išsaugota, spauskite ENTER");
                                 Console.ReadLine();
                             }
                             else
@@ -71,7 +71,7 @@ namespace InvoiceGeneratorSystem
                     }
                     else
                     {
-                        Console.WriteLine("Saskaitos dar nesugeneruotos.");
+                        Console.WriteLine("Sąskaitos dar nesugeneruotos.");
                     }
                 }
                 else
